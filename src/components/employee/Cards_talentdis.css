@@ -1,0 +1,94 @@
+.fa-address-card {
+    margin-top: 5px;
+	margin-right: 5px;
+	color: rgb(35, 87, 117);
+}
+
+.fa-tags{
+    margin-top: 5px;
+	margin-right: 5px;
+	color: rgb(35, 87, 117);
+}
+
+.talent_title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.talent_title h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.talent_list_title {
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+.talent_list_title p {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list_title p {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.talent_list_title_right {
+	float: right;
+	margin-top: 30px;
+
+}
+
+.list_right {
+	float: right;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 50px;
+	width: 80%;
+	margin-top: 100px;
+  list-style: none
+}
+
+.talent_container {
+	height: 170vh;
+
+}
+
+.talent_pagi {
+	margin-top: 100px;
+}
+
+.talent_paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+	
+  }
+  
+  .talent_paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    color: rgb(35, 87, 117);
+    cursor: pointer;
+  }
+  
+  .talent_paginationBttns a:hover {
+    color: white;
+    background-color: #a6a7af;
+  }
+  
+  .talent_paginationActive a {
+    color: white;
+    background-color: rgb(35, 87, 117);
+  }
+  
+  .talent_paginationDisabled a {
+    color: rgb(255, 255, 255);
+    background-color: grey;
+  }
